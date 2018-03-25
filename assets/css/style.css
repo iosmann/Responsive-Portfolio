@@ -7,7 +7,6 @@
 header {
 
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	background-color: #ffffff;
 	padding: 3em 0 3em 0;
 	border-bottom: 2pt;
 	border-style: solid;
@@ -70,7 +69,7 @@ h1 {
     font-weight: bold;
 }
 
-.bigDaddy {
+.iles{
 	width:15em;
 	float: left;
 	margin:0 1em 1em 0;
@@ -246,3 +245,63 @@ input {
 	vertical-align: inherit;
 	float:right; 
 }
+@media (max-width: 640px) {
+	.wrapper {
+	width: 640px;
+	}
+	header {
+	border-bottom: none;
+	}
+	#logo {
+	text-align: center;
+	width: 640px;
+	}
+	
+	
+	nav {
+	background-color: #fff;
+	width: 640px;
+	border-bottom: 2px solid #ddd;
+	}
+	nav ul li {
+	line-height: 60px;
+	}
+	nav ul li a {
+	margin-left: 40px;
+	padding-left: 70px;
+	}
+	.iles {
+	margin-left: 150px;
+	}
+	p {
+	word-wrap: break-word;
+	margin-top: 20px;
+	display: inline-block;
+	}
+	
+	.icon {
+	width: 560px;
+	height: 190px;
+	margin-right: 40px;	
+	}
+	#social img {
+	float: left;
+	padding-right: 10px;
+	}
+	
+	.article {
+	width: 560px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	}
+	
+	.captionD {
+	margin-left: 100px;
+	}
+	
+	.img-responsive {
+		widows: 100%;
+		height:100%;
+		float: left;
+		margin:0 1em 1em 0;
+	}
